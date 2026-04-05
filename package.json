@@ -1,0 +1,35 @@
+{
+  "name": "fyb-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^143.0.4",
+    "@supabase/supabase-js": "^2.101.1",
+    "@types/jszip": "^3.4.0",
+    "jose": "^6.2.2",
+    "jszip": "^3.10.1",
+    "next": "16.2.2",
+    "papaparse": "^5.5.3",
+    "puppeteer": "^24.40.0",
+    "puppeteer-core": "^24.40.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
