@@ -1,6 +1,7 @@
 {
   "functions": {
     "app/api/generate-flyer/route.ts": {
+      "includeFiles": "node_modules/@sparticuz/chromium/bin/**",
       "maxDuration": 30
     },
     "app/api/admin/bulk-export/route.ts": {
