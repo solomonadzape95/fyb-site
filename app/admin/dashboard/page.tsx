@@ -134,6 +134,7 @@ export default function AdminDashboardPage() {
           </div>
           <div className="flex items-center gap-3">
             <Link href="/admin/import" className="text-sm font-semibold" style={{ color: MUTED }}>Import CSV</Link>
+            <Link href="/admin/posters" className="text-sm font-semibold" style={{ color: MUTED }}>Posters</Link>
             <a href="/api/admin/bulk-export" className="text-sm font-semibold px-3 py-1.5 rounded-lg" style={{ background: GOLD, color: '#0e0e0e' }}>Bulk Export</a>
             <button onClick={lockAll} className="text-sm font-semibold px-3 py-1.5 rounded-lg" style={{ background: 'rgba(255,255,255,0.07)', border: `1px solid ${BORDER}`, color: MUTED }}>Lock All</button>
             <a href="/api/admin/csv-export" className="text-sm font-semibold px-3 py-1.5 rounded-lg" style={{ background: 'rgba(255,255,255,0.07)', border: `1px solid ${BORDER}`, color: MUTED }}>CSV Export</a>
